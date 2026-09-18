@@ -161,7 +161,7 @@
         <span id="lsText">Prossima live: lun 21:00</span>
       </span>
       <span class="pill">
-        <span><span class="pill-num" id="proofNum">50+</span> nella community</span>
+        <span><span class="pill-num" id="proofNum">100+</span> nella community</span>
       </span>
     </div>
 
@@ -285,11 +285,11 @@
       }
     })();
 
-    /* Conteggio "50+", una sola volta quando entra in vista. */
+    /* Conteggio "100+", una sola volta quando entra in vista. */
     (function () {
       var el = document.getElementById('proofNum');
       if (!el || !('IntersectionObserver' in window)) return;
-      var target = 50, duration = 800, start = null, played = false;
+      var target = 100, duration = 800, start = null, played = false;
 
       function step(ts) {
         if (!start) start = ts;
